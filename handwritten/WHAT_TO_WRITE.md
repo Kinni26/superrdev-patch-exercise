@@ -30,7 +30,4 @@ ROOT CAUSE, FIX and WHY.
 - Assumptions: archived tasks should never show; status values are OPEN/IN_PROGRESS/DONE; max page size 100 is my choice.
 - Not fixed: in-memory pagination, `%`/`_` not escaped in LIKE, H2 console/CORS config.
 
-## Be ready to explain in the interview
-- Why `Thread.sleep` was removed rather than "optimised".
-- Why 400 instead of 500, and why AbortController instead of an `ignore` flag.
-- Why you did not rewrite pagination to be DB-side (scope/time, can't verify) and what you'd do next.
+
